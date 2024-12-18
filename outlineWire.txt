@@ -1,0 +1,62 @@
+WEBSITE OUTLINE
+
+https://www.figma.com/design/1CyRXd7bqxMiXJXS8MF3Ug/Game-Demo?node-id=31-49&t=wHxJD4csa7zkRTEs-1
+
+Objectives/Goals
+
+The webpage is going to be about a game that I am creating. It will have 4 pages. Home, Gameplay, News, Future features.
+
+
+
+WebPages
+
+Home
+     Simple home page with all 4 pages selectable at the top
+	    -header
+		    logo picture top left
+			menu - the one selected will be in red
+				
+	    -content
+		    There will be 3 pictures and 3 textboxes that explain each picture of the game pictures
+			
+	    -footer
+		    email
+		    phone number
+		    social media links/logo
+		        
+The Game
+
+	    -header
+		        logo picture top left
+			    menu - the one selected will be in red
+				
+	    -content
+            Three pictures of gameplay that are stagered 
+	    -footer
+		    email
+		    phone number
+		    social media links/logo
+News
+
+	    -header
+		        logo picture top left
+			    menu - the one selected will be in red
+				
+	    -content
+		    This page would contain text that takes about patches and updates about the game.
+	    -footer
+		    email
+		    phone number
+		    social media links/logo
+RoadMap
+
+	    -header
+		    logo picture top left
+			menu - the one selected will be in red
+				
+	    -content
+		    There will be a textbox area with a list of features that I would like to implement into the game
+	    -footer
+		    email
+		    phone number
+		    social media links/logo

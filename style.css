@@ -1,0 +1,183 @@
+/*Body*/
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+/*middle*/
+.middle {
+    padding: 5px;
+    color: red;
+}
+
+.middle h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+/*header*/
+.header {
+    background-color: #4441fc;
+    background-image: url(header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/*gallery*/
+div.gallery {
+    align-items: center;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 70%;
+    display: flex;
+}
+.columnl{
+    flex: 1;
+}
+.column2{
+    flex: 2;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 1em;
+}
+
+/*footer*/
+footer {
+    padding: 25%;
+    background-color: rgb(172, 141, 0);
+    color: white;
+}
+
+#icons {
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*form*/
+input[type="submit"] {
+    background-color: black;
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: gold;
+}
+
+.form {
+    border: 10px solid pink;
+    border-image: repeating-linear-gradient(-55deg,
+            #000,
+            #000 20px,
+            #ffb101 20px,
+            #ffb101 40px) 10;
+    padding: 5%;
+}
+
+ul{
+    list-style-type: circle;
+    color: red;
+}
